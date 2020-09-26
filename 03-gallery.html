@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 3</title>
+    <style>
+      body {
+        background-color: lightsteelblue;
+      }
+      #gallery {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+      }
+      .gallery__item {
+        width: 30%;
+      }
+      .gallery__img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        outline-width: 5px;
+        outline-style: double;
+        outline-color: #9e9e9e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Задание 3</h1>
+    <p>Напиши скрипт для создания галлереи изображений по массиву данных.</p>
+    <a href="./index.html">Вернуться к списку заданий</a>
+    <hr />
+    <ul id="gallery"></ul>
+
+    <script src="./js/task-03.js" type="module"></script>
+  </body>
+</html>
